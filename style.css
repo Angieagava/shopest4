@@ -29,6 +29,26 @@ footer h6 { padding: 1% 0; }
 footer h6:hover { color: orange; }
 footer i.fa {color: #000; margin: 0 5%;}
 footer i.fa:hover { color: orange; }
+
+/*CAROUSEL*/
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+.MultiCarousel .MultiCarousel-inner .item { float: left;}
+.MultiCarousel .MultiCarousel-inner .item > div { 
+    text-align: center; 
+    padding:10px; margin:10px; 
+    background:url('pexels/pexels-photo-982585.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 210px; 
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+.MultiCarousel .leftLst { left:-10px; }
+.MultiCarousel .rightLst { right:30px; }
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; }
+.MultiCarousel .overlay { background-color: rgba(255,255,255,.5); }
+.MultiCarousel .btn-link i.fa { font-size: 3rem; color: #000; }
+
 /*HOVER*/
 .hovereffect {
   width: 100%;
@@ -58,6 +78,7 @@ footer i.fa:hover { color: orange; }
 
 .hovereffect:hover .overlay {
   opacity: 1;
+  transition: .5s;
   filter: alpha(opacity=100);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
