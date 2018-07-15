@@ -1,3 +1,6 @@
+.btn-link { color: #000; }
+button.btn.btn-sm.btn-link.active {font-weight: 700;color: orange;}
+
 .card {
  border: 1px solid transparent;
 border-radius: 0; 
@@ -12,7 +15,7 @@ border-radius: 0;
 h2 { margin: 25% auto; }
 .card-columns i.fa { color: #fff;font-size: 1.5rem; margin-top: 15%; }
 .subscribe {
-    background: url('pexels/2.jpeg');
+    background: url('https://images.pexels.com/photos/775999/pexels-photo-775999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center center;
     height: 300px;
