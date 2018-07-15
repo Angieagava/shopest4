@@ -5,12 +5,30 @@ border-radius: 0;
 .card-image {
     border-radius: 0; 
 }
+.btn-warning:hover { background: #fff; color: orange; }
 .brand ul { display: inline; text-decoration: none; }
 .brand ul.li { display: inline; }
 .one { margin-top: 10%; }
 h2 { margin: 25% auto; }
 .card-columns i.fa { color: #fff;font-size: 1.5rem; margin-top: 15%; }
-footer i.fa {color: #fff;}
+.subscribe {
+    background: url('pexels/2.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+.info4 img {
+    max-width: 100%;
+    width: 100px;
+    filter: grayscale(100%); 
+    margin: 3%;
+}
+.info4 img:hover {opacity: .5;}
+footer { padding: 5%; }
+footer h6 { padding: 1% 0; }
+footer h6:hover { color: orange; }
+footer i.fa {color: #000; margin: 0 5%;}
+footer i.fa:hover { color: orange; }
 /*HOVER*/
 .hovereffect {
   width: 100%;
