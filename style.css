@@ -1,8 +1,15 @@
+/*NAVBAR*/
 .btn-link { color: #000; }
 button.btn.btn-sm.btn-link.active {font-weight: 700;color: orange;}
 button.btn.btn-sm.btn-link:hover {color: orange; text-decoration: none;}
 nav .nav-link {color: #000;}
 nav .nav-link:hover {color: orange;}
+.btn-warning:hover { background: #fff; color: orange; }
+.brand ul { display: inline; text-decoration: none; }
+.brand ul.li { display: inline; }
+
+/*CONTENT*/
+.one { margin-top: 15%; }
 .card {
  border: 1px solid transparent;
 border-radius: 0; 
@@ -10,18 +17,24 @@ border-radius: 0;
 .card-image {
     border-radius: 0; 
 }
-.btn-warning:hover { background: #fff; color: orange; }
-.brand ul { display: inline; text-decoration: none; }
-.brand ul.li { display: inline; }
-.one { margin-top: 10%; }
+
 h2 { margin: 25% auto; }
 .card-columns i.fa { color: #fff;font-size: 1.5rem; margin-top: 15%; }
+
+/*SUBSCRIBE*/
 .subscribe {
     background: url('https://images.pexels.com/photos/775999/pexels-photo-775999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center center;
     height: 300px;
 }
+
+/*FOOTER*/
+footer { padding: 5%; }
+footer h6 { padding: 1% 0; }
+footer h6:hover { color: orange; }
+footer i.fa {color: #000; margin: 0 5%;}
+footer i.fa:hover { color: orange; }
 .info4 img {
     max-width: 100%;
     width: 100px;
@@ -29,11 +42,6 @@ h2 { margin: 25% auto; }
     margin: 3%;
 }
 .info4 img:hover {opacity: .5;}
-footer { padding: 5%; }
-footer h6 { padding: 1% 0; }
-footer h6:hover { color: orange; }
-footer i.fa {color: #000; margin: 0 5%;}
-footer i.fa:hover { color: orange; }
 
 /*CAROUSEL*/
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
