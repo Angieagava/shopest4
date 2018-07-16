@@ -4,7 +4,7 @@ button.btn.btn-sm.btn-link.active {font-weight: 700;color: #f24f16;}
 button.btn.btn-sm.btn-link:hover {color: #f24f16; text-decoration: none;}
 nav .nav-link {color: #000;}
 nav .nav-link:hover {color: #f24f16;}
-.btn-warning { background: #f24f16;}
+.btn-warning { background: #f24f16;color: #fff;}
 .btn-warning:hover { background: #fff; color: #f24f16; }
 .brand ul { display: inline; text-decoration: none; }
 .brand ul.li { display: inline; }
