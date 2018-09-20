@@ -150,19 +150,21 @@ footer i.fa {color: #000; margin: 0 5%;}
 
     @media (min-width: 376px) {
         .card-columns {
-            column-count: 3;
+            column-count: 1;
+             display: flex;
+             flex-direction: column;
         }
     }
 
     @media (min-width: 768px) {
         .card-columns {
-            column-count: 4;
+            column-count: 2;
         }
     }
 
     @media (min-width: 992px) {
         .card-columns {
-            column-count: 4;
+            column-count: 2;
         }
     }
 
