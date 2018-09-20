@@ -148,11 +148,9 @@ footer i.fa {color: #000; margin: 0 5%;}
 
 /*MEDIA*/
 
-    @media (min-width: 376px) {
+    @media (min-width: 300px) and (max-width: 760px) {
         .card-columns {
             column-count: 1;
-             display: flex;
-             flex-direction: column;
         }
     }
 
