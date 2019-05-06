@@ -1,3 +1,5 @@
+body { font-family: 'Montserrat', sans-serif; }
+
 /*NAVBAR*/
 .btn-link { color: #000; }
 button.btn.btn-sm.btn-link.active {font-weight: 700;color: #f24f16;}
