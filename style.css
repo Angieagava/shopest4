@@ -13,7 +13,7 @@ nav .nav-link:hover {color: #f24f16;}
 .brand ul.li { display: inline; }
 
 /*CONTENT*/
-.one { margin-top: 15%; }
+.one { margin-top: 5%; }
 .card {
  border: 1px solid transparent;
 border-radius: 0; 
@@ -36,7 +36,7 @@ i.fa:hover {color:#f24f16;}
 }
 
 .subscribe form {
- padding-top: 5%;
+ padding-top: 5%!important;
 }
 
 /*FOOTER*/
