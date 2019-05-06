@@ -25,10 +25,15 @@ i.fa:hover {color:#f24f16;}
 
 /*SUBSCRIBE*/
 .subscribe {
-    background: url('https://images.pexels.com/photos/137611/pexels-photo-137611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background: url('https://images.pexels.com/photos/1964869/pexels-photo-1964869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center center;
     height: 300px;
+    opacity: .8;
+}
+
+.subscribe form {
+ padding-top: 5%;
 }
 
 /*FOOTER*/
