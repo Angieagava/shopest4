@@ -28,15 +28,15 @@ i.fa:hover {color:#f24f16;}
 
 /*SUBSCRIBE*/
 .subscribe {
-    background-color: orange;
+    background: orange;
+    background-position: center;
     background-size: cover;
-    background-position: center center;
     height: 300px;
-    opacity: .8;
 }
 
 .subscribe form {
  padding-top: 5%!important;
+ color: black;
 }
 
 /*FOOTER*/
